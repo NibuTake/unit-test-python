@@ -8,9 +8,16 @@
       "source.organizeImports.ruff": true
     }
   },
-  "python.formatting.provider": "black",
+  "python.formatting.provider": "none",
 
-  // Python formatterの設定
+  // Test
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestPath": "backend/.venv/bin/pytest",
+  "files.exclude": {
+    ".venv": true
+  },
+
+  // Formatter
   "python.linting.pylintEnabled": false,
   "python.linting.lintOnSave": true,
   "python.defaultInterpreterPath": "backend/.venv/bin/python",
