@@ -35,14 +35,14 @@ class Casher:
     # def calculate_discount(self) -> int:
     #     return self._discount_by_register() + self._discount_by_age()
 
-    def _discount_by_register(self) -> int:
-        if self.customer.is_registered:
-            return self.calculate_total_price() * 0.1
-        else:
-            return 0
+    # def _discount_by_register(self) -> int:
+    #     if self.customer.is_registered:
+    #         return self.calculate_total_price() * 0.1
+    #     else:
+    #         return 0
 
-    def _discount_by_age(self) -> int:
-        if self.customer.age >= 35:
-            return self.calculate_total_price() * 0.05
-        else:
-            return 0
+    # def _discount_by_age(self) -> int:
+    #     if self.customer.age >= 35:
+    #         return self.calculate_total_price() * 0.05
+    #     else:
+    #         return 0
