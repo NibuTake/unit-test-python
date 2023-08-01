@@ -1,0 +1,9 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "ignoreRegExpList": ["[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙纊-黑]+"],
+  "dictionaries": ["npm", "node", "typescript", "python"],
+  "words": [],
+  "ignorePaths": ["node_modules/", ".git"],
+  "allowCompoundWords": true
+}

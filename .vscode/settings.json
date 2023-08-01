@@ -1,0 +1,19 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.organizeImports": true,
+      "source.fixAll.ruff": true,
+      "source.organizeImports.ruff": true
+    }
+  },
+  "python.formatting.provider": "black",
+
+  // Python formatterの設定
+  "python.linting.pylintEnabled": false,
+  "python.linting.lintOnSave": true,
+  "python.defaultInterpreterPath": "backend/.venv/bin/python",
+  "python.formatting.blackPath": "backend/.venv/bin/black",
+  "editor.codeActionsOnSave": ["source.organizeImports", "source.fixAll.eslint"]
+}
