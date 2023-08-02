@@ -1,4 +1,4 @@
-from model import Casher, Customer, Product
+from domain.model import Casher, Customer, Product
 
 
 class Test_Casher_合計金額:

@@ -9,6 +9,8 @@
     }
   },
   "python.formatting.provider": "none",
+  "python.analysis.extraPaths": ["backend"],
+  "python.autoComplete.extraPaths": ["backend"],
 
   // Test
   "python.testing.pytestEnabled": true,
@@ -16,13 +18,16 @@
   "files.exclude": {
     ".venv": true
   },
-  "python.analysis.extraPaths": ["backend"],
-  "python.autoComplete.extraPaths": ["backend"],
+  "python.testing.cwd": "backend",
 
   // Formatter
   "python.linting.pylintEnabled": false,
   "python.linting.lintOnSave": true,
   "python.defaultInterpreterPath": "backend/.venv/bin/python",
   "python.formatting.blackPath": "backend/.venv/bin/black",
-  "editor.codeActionsOnSave": ["source.organizeImports", "source.fixAll.eslint"]
+  "editor.codeActionsOnSave": [
+    "source.organizeImports",
+    "source.fixAll.eslint"
+  ],
+  "python.analysis.extraPaths": ["backend"]
 }

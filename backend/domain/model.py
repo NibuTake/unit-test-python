@@ -20,6 +20,7 @@ class Casher:
     customer: Customer
     products: List[Product]
 
+    # NOTE: カゴが空の場合は？
     def calculate_total_price(self) -> int:
         price = 0
         for product in self.products:
